@@ -2,6 +2,36 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
+## how to install using npm
+
+```
+npm install ndtk-monaco-editor
+ ```
+
+## Add this line into your angular.json project file
+
+```
+ {
+      "glob": "**/*",
+      "input": "node_modules/monaco-editor/min/vs",
+      "output": "/vs/"
+ }
+ ```              
+                
+ example
+  ```
+ "assets": [
+       {
+          "glob": "**/*",
+           "input": "node_modules/monaco-editor/min/vs",
+           "output": "/vs/"
+       },
+           "src/favicon.ico",
+           "src/assets"
+              
+ ]
+ ```
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
