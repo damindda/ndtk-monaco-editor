@@ -2,7 +2,7 @@
   "name": "@damindda/ndtk-monaco-editor",
   "version": "0.0.1",
   "repository": {
-    "url": "git://github.com/damindda/angular-monaco-editor.git"
+    "url": "git://github.com/damindda/ndtk-monaco-editor.git"
   },
   "keywords": ["monaco", "monaco editor", "editor", "angular monaco"],
   "author": {
