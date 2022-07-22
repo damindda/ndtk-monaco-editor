@@ -1,6 +1,13 @@
 {
   "name": "ndtk-monaco-editor",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "repository": {
+    "url": "git://github.com/damindda/angular-monaco-editor.git"
+  },
+  "keywords": ["monaco", "monaco editor", "editor", "angular monaco"],
+  "author": {
+    "name": "Daminda Jayaratne"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -11,7 +18,7 @@
     "build:monaco-editor": "ng build --configuration production --project ndtk-monaco-editor",
     "build:demo": "ng build --configuration production --project demo"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "~13.1.0",
     "@angular/common": "~13.1.0",
