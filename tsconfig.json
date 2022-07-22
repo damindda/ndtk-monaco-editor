@@ -11,6 +11,12 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
+    "paths": {
+      "ndtk-monaco-editor": [
+        "dist/ndtk-monaco-editor/ndtk-monaco-editor",
+        "dist/ndtk-monaco-editor"
+      ]
+    },
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
