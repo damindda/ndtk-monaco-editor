@@ -7,8 +7,22 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ```
 npm install ndtk-monaco-editor
  ```
+ 
+ 
+## how to add in to ypur project app.module.ts file
 
-## Add this line into your angular.json project file
+```
+import { NdtkMonacoEditorModule } from 'ndtk-monaco-editor'
+ ```
+ 
+ 
+## how to add HTML template in to ypur project component.html file
+
+```
+<ndtk-monaco-editor></ndtk-monaco-editor>
+ ```
+
+## how to enable monaco instance in your angular.json project file
 
 ```
  {
