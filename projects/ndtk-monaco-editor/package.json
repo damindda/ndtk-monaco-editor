@@ -5,9 +5,6 @@
     "@angular/common": "^13.1.0",
     "@angular/core": "^13.1.0"
   },
-  "repository": {
-    "url": "git://github.com/damindda/ndtk-monaco-editor.git"
-  },
   "keywords": ["monaco", "monaco editor", "editor", "angular monaco"],
   "author": {
     "name": "Daminda Jayaratne"
