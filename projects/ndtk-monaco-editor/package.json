@@ -5,6 +5,17 @@
     "@angular/common": "^13.1.0",
     "@angular/core": "^13.1.0"
   },
+  "keywords": [
+		"angular",
+		"ng",
+		"monaco",
+		"monaco-editor",
+		"monaco-tree",
+		"vscode",
+		"code",
+		"visual studio",
+		"visual studio code"
+	],
   "dependencies": {
     "tslib": "^2.3.0"
   }
