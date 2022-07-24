@@ -1,6 +1,6 @@
 {
   "name": "ndtk-monaco-editor",
-  "version": "0.0.1",
+  "version": "0.2.1",
   "peerDependencies": {
     "@angular/common": "^13.1.0",
     "@angular/core": "^13.1.0"
