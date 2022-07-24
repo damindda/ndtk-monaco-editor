@@ -15,6 +15,6 @@ jobs:
    - run: npm install
    - run: npm run build:monaco-editor
    - run: cd dist/ndtk-monaco-editor
-   - run: npm publish
+   - run: npm publish dist/ndtk-monaco-editor
      env:
       NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
