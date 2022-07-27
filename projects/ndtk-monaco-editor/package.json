@@ -3,7 +3,8 @@
   "version": "0.2.4",
   "peerDependencies": {
     "@angular/common": "^13.1.0",
-    "@angular/core": "^13.1.0"
+    "@angular/core": "^13.1.0",
+    "monaco-editor": "^0.33.0"
   },
   "repository": {
     "url": "git://github.com/damindda/ndtk-monaco-editor.git"
@@ -13,7 +14,6 @@
     "name": "Daminda Jayaratne"
   },
   "dependencies": {
-    "tslib": "^2.3.0",
-    "monaco-editor": "^0.33.0"
+    "tslib": "^2.3.0"
   }
 }
