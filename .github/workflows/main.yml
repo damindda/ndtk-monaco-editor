@@ -1,0 +1,20 @@
+on:
+ push:
+  branches: main
+
+jobs:
+ publish-gpr:
+  runs-on: ubuntu-latest
+  steps:
+   - uses: actions/checkout@v2
+   - uses: actions/setup-node@v1
+     with:
+      node-version: '14.15.4'
+      registry-url: https://npm.pkg.github.com
+      scope: 'damindda'
+   - run: npm install
+   - run: npm run build:monaco-editor
+   - run: cd dist/ndtk-monaco-editor
+   - run: npm publish dist/ndtk-monaco-editor
+     env:
+      NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}

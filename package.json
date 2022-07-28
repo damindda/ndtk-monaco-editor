@@ -1,6 +1,6 @@
 {
   "name": "@damindda/ndtk-monaco-editor",
-  "version": "0.0.",
+  "version": "0.0.7",
   "repository": {
     "url": "git://github.com/damindda/ndtk-monaco-editor.git"
   },
@@ -15,7 +15,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "build:stats": "ng build --stats-json",
-    "build:monaco-editor": "ng build ndtk-monaco-editor",
+    "build:monaco-editor": "ng build --project ndtk-monaco-editor",
     "build:demo": "ng build --configuration production --project demo",
     "publish:lib": "npm publish dist/ndtk-monaco-editor"
   },

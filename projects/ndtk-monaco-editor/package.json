@@ -1,5 +1,5 @@
 {
-  "name": "ndtk-monaco-editor",
+  "name": "@damindda/ndtk-monaco-editor",
   "version": "0.0.7",
   "peerDependencies": {
     "@angular/common": "^13.1.0",
