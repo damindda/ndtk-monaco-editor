@@ -8,15 +8,14 @@ import {
   ViewChild,
 } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
-
-import {
-  MonacoEditorOptions,
-  LineNumbers,
-  MonacoEditor,
-} from './models/monaco';
 import { NdtkMonacoEditorService } from './ndtk-monaco-editor.service';
 
 // declare let monaco: any;
+
+export declare type MonacoEditorOptions = monaco.editor.IStandaloneEditorConstructionOptions;
+export declare type MonacoEditor = monaco.editor.IStandaloneCodeEditor;
+export declare type LineNumbers = 'on' | 'off';
+
 @Component({
   selector: 'ndtk-monaco-editor',
   template: ` <div #editorContainer class="monacoEditor"></div> `,
