@@ -1,6 +1,6 @@
 {
   "name": "@damindda/ndtk-monaco-editor",
-  "version": "0.0.3",
+  "version": "0.0.",
   "repository": {
     "url": "git://github.com/damindda/ndtk-monaco-editor.git"
   },
@@ -29,7 +29,6 @@
     "@angular/platform-browser": "~13.1.0",
     "@angular/platform-browser-dynamic": "~13.1.0",
     "@angular/router": "~13.1.0",
-    "monaco-editor": "^0.33.0",
     "rxjs": "~7.4.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
@@ -45,6 +44,7 @@
     "karma-chrome-launcher": "~3.1.0",
     "karma-coverage": "~2.1.0",
     "karma-jasmine": "~4.0.0",
+    "monaco-editor": "^0.33.0",
     "karma-jasmine-html-reporter": "~1.7.0",
     "ng-packagr": "^13.0.0",
     "typescript": "~4.5.2"

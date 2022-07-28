@@ -16,7 +16,7 @@ import {
 } from './models/monaco';
 import { NdtkMonacoEditorService } from './ndtk-monaco-editor.service';
 
-declare var monaco: any;
+declare let monaco: any;
 @Component({
   selector: 'ndtk-monaco-editor',
   template: ` <div #editorContainer class="monacoEditor"></div> `,
