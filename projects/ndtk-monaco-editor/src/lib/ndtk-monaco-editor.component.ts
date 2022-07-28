@@ -16,7 +16,7 @@ import {
 } from './models/monaco';
 import { NdtkMonacoEditorService } from './ndtk-monaco-editor.service';
 
-declare let monaco: any;
+// declare let monaco: any;
 @Component({
   selector: 'ndtk-monaco-editor',
   template: ` <div #editorContainer class="monacoEditor"></div> `,
@@ -58,7 +58,7 @@ export class NdtkMonacoEditorComponent
   monacoConfigs() {
     const elementRef = this.editorContainer.nativeElement;
     this.editor = monaco.editor.create(elementRef, {
-      value: this.options?.value ? this.options.value : null,
+      value: this.options?.value ? this.options.value : undefined,
       theme: this.options?.theme ? this.options.theme : 'vs',
       language: this.options?.language ? this.options.language : 'javascript',
       lineNumbers: this.lineNumbers ? this.lineNumbers : 'on',
