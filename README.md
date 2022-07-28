@@ -5,7 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## how to install using npm
 
 ```
-npm install ndtk-monaco-editor
+npm install ndtk-monaco-editor monaco-editor
  ```
  
  
